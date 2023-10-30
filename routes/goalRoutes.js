@@ -1,0 +1,10 @@
+const express = require("express");
+const { createGoal, findLastWeekCalories, exitsGoal,exitsTodayCalory,createCalories,updateCalories } = require("../controllers/goalController");
+const router = express.Router();
+router.post("", createGoal);
+router.post("/create-calory", createCalories);
+router.put("/create-calory", updateCalories);
+router.get("/exits-goal/:userId", exitsGoal);
+router.get("/exits-calory/:userId", exitsTodayCalory);
+router.get("/user-calories/:userId", findLastWeekCalories);
+module.exports = router;

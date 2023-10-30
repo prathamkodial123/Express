@@ -1,0 +1,37 @@
+npm i express
+npm i nodemon
+npm i express-async-handler
+npm i jsonwebtoken
+npm i mongoose
+//  monoDB;
+
+
+cannot import module like below 
+:: module.exports = validateToken;
+:: const {validateToken} = require('file.name) ;
+
+import way
+const {API_URL_USER} = require('./constants/apiConstant')
+import API_URL from "../constants/apiConstant";
+
+import error
+    1.
+    :: exports default abouts-up;
+    :: import about-up from '/file'
+    :: :export
+    :: export about-up will get error
+    2.
+    :: :export  
+        export const API_URL_USER = "api/users/";
+
+    :: :import
+        const { API_URL_USER } = require('./constants/apiConstant')
+    :: :solution
+        remove export keyword  
+
+
+/
+user id 
+product id 
+plan type
+
